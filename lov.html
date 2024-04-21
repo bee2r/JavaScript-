@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        
+        html{
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex:2;
+            background-color: aqua;
+            height: 100%;
+        }
+        p{
+            flex: 1;
+            text-align: center;
+            width: 500px;
+        }
+        form{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            flex: 3;
+        }
+        button{
+            background-color: red;
+            border: none;
+            border-radius:10px;
+            padding: 5px;
+            color:aliceblue;
+        }
+        input{
+            text-align: center;
+        }
+        #result{
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+        <h1> Love Calculator </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia neque qui facere illum, dolores alias nobis minima recusandae, porro hic dolore illo! Sequi dolor laudantium minus ipsam suscipit quaerat quod.</p>
+        <form>
+            <input type="text" id="yourName" placeholder="Inpute Your Name">
+            <input type="text" id="theirName" placeholder="Inpute their Name">
+            <input type="text" id="sex" placeholder="Male or Female">
+            <button onclick="lovecal(event)">Submit</button> 
+          </form>
+          <p id="result"></p>
+          
+
+
+    </div>
+    <script src="./LoveCalculator.js"></script>
+</body>
+</html>
