@@ -1,11 +1,11 @@
-var yourName = prompt("What is your name");
-var hisName = prompt("What is his/her name");
-var Sex= prompt("Male or Female");
-var Male = "him";
-var Female = "her";
+yourName = prompt("What is your name");
+hisName = prompt("What is his/her name");
+Sex= prompt("Male or Female");
+Male = "him";
+Female = "her";
 
 yourName = Math.random()*101;
 hisName= Math.random()*101;
-var result = (yourName + hisName)/2;
+result = (yourName + hisName)/2;
 result=Math.floor(result);
-console.log("You are " + result + "% compatible with " + (Sex === "Male" ? Male:Female));
+alert ("You are " + result + "% compatible with " + (Sex === "Male" ? Male:Female));
